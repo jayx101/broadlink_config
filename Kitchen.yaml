@@ -1,0 +1,39 @@
+    switches:
+      Kitchen_1-Gang:
+        friendly_name: Kitchen 1-Gang
+        command_on: '6RRGAN8JCRYJFgkWCRYWCRYJFgkWCRYJCRYJFhYJCRYWCRYJCRYJFhYJFgkWCQkWCRYWCRYJFgkW
+CRYJCRYJFhYJCRYJFgkAAUg='
+      Kitchen_1-Gang:
+        friendly_name: Kitchen 1-Gang
+        command_on: '6RRGAN8JCRYWCRYJCRYJFgkWFgkJFgkWCRYWCQkWCRYJFgkWCRYJFgkWFgkWCRYJFgkWCQkWCRYW
+CRYJCRYJFgkWFgkWCQkAAUg='
+      Kitchen_2-Gang:
+        friendly_name: Kitchen 2-Gang
+        command_on: '6RRGAN8JCRYWCRYJFgkWCRYJCRYWCQkWCRYWCQkWFgkWCQkWFgkJFhYJCRYWCRYJCRYJFgkWCRYJ
+FhYJFgkJFgkWCRYWCQkAAUg='
+      Kitchen_2-Gang:
+        friendly_name: Kitchen 2-Gang
+        command_on: '6RRGAN8JCRYJFhYJFgkWCQkWFgkJFgkWFgkWCRYJCRYWCRYJCRYWCQkWFgkJFgkWFgkJFhYJFgkW
+CRYJFgkJFhYJFgkJFgkAAUg='
+      Kitchen_:
+        friendly_name: Kitchen 
+        command_on: '6RRGAN8JCRYWCRYJCRYWCQkWFgkWCRYJCRYWCRYJFgkJFgkWCRYWCQkWCRYJFhYJCRYWCQkWCRYJ
+FhYJCRYJFgkWFgkJFgkAAUg='
+      Kitchen_:
+        friendly_name: Kitchen 
+        command_on: '6RRGAN8JFgkJFgkWFgkWCQkWCRYJFgkWCRYWCRYJFgkJFgkWCRYWCQkWFgkJFhYJFgkJFgkWCRYW
+CQkWFgkJFhYJFgkJFgkAAUg='
+
+
+
+group:
+  Kitchen:
+    name: Kitchen
+    view: yes
+    entities:
+      - switch.Kitchen_1-Gang
+      - switch.Kitchen_1-Gang
+      - switch.Kitchen_2-Gang
+      - switch.Kitchen_2-Gang
+      - switch.Kitchen_
+      - switch.Kitchen_

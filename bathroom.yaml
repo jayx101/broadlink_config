@@ -1,0 +1,49 @@
+    switches:
+      bathroom_1-Gang:
+        friendly_name: bathroom 1-Gang
+        command_on: '6RRGAN8JCRYWCRYJCRYJFhYJFgkJFhYJFgkWCRYJFgkWCRYJFgkWCRYJCRYJFgkWCRYJFgkWCRYJ
+FgkWFgkJFhYJFgkJFgkAAUg='
+      bathroom_1-Gang:
+        friendly_name: bathroom 1-Gang
+        command_on: '6RRGAN8JFgkWCQkWFgkWCRYJFgkWCQkWCRYJFgkWCRYJFgkWFgkJFhYJFgkWCQkWFgkJFgkWFgkJ
+FgkWFgkJFhYJCRYWCQkAAUg='
+      bathroom_2-Gang:
+        friendly_name: bathroom 2-Gang
+        command_on: '6RRGAN8JCRYWCRYJFgkJFhYJFgkJFhYJCRYJFhYJFgkWCRYJFgkJFhYJFgkWCQkWFgkWCRYJFgkJ
+FhYJCRYWCQkWFgkJFgkAAUg='
+      bathroom_2-Gang:
+        friendly_name: bathroom 2-Gang
+        command_on: '6RRGAN8JCRYWCRYJCRYWCRYJFgkWCRYJFgkJFgkWFgkJFgkWFgkWCRYJFgkJFhYJFgkWCQkWCRYJ
+FgkWCRYJFgkWCRYJFgkAAUg='
+      bathroom_3-Gang:
+        friendly_name: bathroom 3-Gang
+        command_on: '6RRGAN8JFgkWCRYJFgkWCQkWCRYJFhYJFgkJFhYJFgkWCQkWFgkWCRYJCRYJFgkWCRYWCRYJFgkJ
+FhYJFgkWCQkWCRYWCQkAAUg='
+      bathroom_3-Gang:
+        friendly_name: bathroom 3-Gang
+        command_on: '6RRGAN8JFgkWCQkWFgkJFgkWFgkWCRYJCRYWCRYJCRYWCQkWFgkWCQkWCRYWCRYJFgkWCQkWFgkJ
+FgkWCRYWCRYJFgkWCQkAAUg='
+      bathroom_:
+        friendly_name: bathroom 
+        command_on: '6RRGAN8JFgkJFgkWCRYJFgkWFgkJFhYJFgkWCQkWFgkJFhYJCRYWCQkWFgkWCRYJFgkJFhYJFgkJ
+FhYJCRYWCQkWFgkJFgkAAUg='
+      bathroom_:
+        friendly_name: bathroom 
+        command_on: '6RRGAN8JCRYJFhYJFgkWCQkWCRYWCQkWCRYWCRYJCRYJFhYJFgkJFgkWCRYJFhYJFgkJFgkWCRYJ
+FgkWFgkWCQkWCRYWCQkAAUg='
+
+
+
+group:
+  bathroom:
+    name: bathroom
+    view: yes
+    entities:
+      - switch.bathroom_1-Gang
+      - switch.bathroom_1-Gang
+      - switch.bathroom_2-Gang
+      - switch.bathroom_2-Gang
+      - switch.bathroom_3-Gang
+      - switch.bathroom_3-Gang
+      - switch.bathroom_
+      - switch.bathroom_
