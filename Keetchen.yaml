@@ -1,0 +1,33 @@
+    switches:
+      Keetchen_1-Gang:
+        friendly_name: Keetchen 1-Gang
+        command_on: '6RRGAN8JCRYWCQkWCRYJFhYJCRYJFhYJCRYWCRYJCRYWCRYJFgkJFhYJFgkWCRYJFgkJFgkWFgkJFhYJFgkJFgkWFgkJFgkAAUg='
+      Keetchen_1-Gang:
+        friendly_name: Keetchen 1-Gang
+        command_on: '6RRGAN8JCRYJFgkWFgkJFgkWCRYWCRYJCRYWCQkWFgkJFgkWFgkJFgkWFgkWCRYJCRYJFgkWFgkJFgkWFgkWCRYJCRYJFgkAAUg='
+      Keetchen_2-Gang:
+        friendly_name: Keetchen 2-Gang
+        command_on: '6RRGAN8JCRYJFhYJCRYJFhYJCRYWCRYJCRYWCQkWCRYJFgkWCRYJFhYJFgkJFgkWCRYJFhYJFgkWCRYJFgkJFhYJCRYJFgkAAUg='
+      Keetchen_2-Gang:
+        friendly_name: Keetchen 2-Gang
+        command_on: '6RRGAN8JFgkWCRYJCRYJFhYJCRYJFgkWCRYWCQkWCRYJFgkWCRYJFgkWFgkJFgkWFgkWCRYJFgkWCRYJFgkJFgkWCRYJFgkAAUg='
+      Keetchen_:
+        friendly_name: Keetchen 
+        command_on: '6RRGAN8JCRYWCQkWFgkJFgkWCRYJFhYJFgkJFgkWFgkJFhYJFgkJFgkWCRYJFgkWFgkWCQkWFgkJFhYJFgkWCRYJCRYJFgkAAUg='
+      Keetchen_:
+        friendly_name: Keetchen 
+        command_on: '6RRGAN8JFgkJFhYJFgkJFhYJFgkWCRYJFgkWCRYJCRYWCQkWCRYJFhYJFgkJFgkWCRYJFhYJCRYWCQkWCRYJFhYJCRYWCQkAAUg='
+
+
+
+group:
+  Keetchen:
+    name: Keetchen
+    view: yes
+    entities:
+      - switch.Keetchen_1-Gang
+      - switch.Keetchen_1-Gang
+      - switch.Keetchen_2-Gang
+      - switch.Keetchen_2-Gang
+      - switch.Keetchen_
+      - switch.Keetchen_
